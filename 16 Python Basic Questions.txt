@@ -1,0 +1,80 @@
+
+16 Python Basic Questions
+
+1. To avoid overwriting the output, please code here 
+
+2. what is the remainder if 9 is divided by 2. Is 9 even?
+
+3. Convert the string "s = 'i am in Alberta'" into upper case and into a list.
+s = 'i am in Alberta'​
+
+4. Convert the string "s = 'My name is #Qazi!'" *into lower case and split at # into a list. *
+s = "My name is #Qazi!"
+
+5. We have
+
+province = "Alberta"
+population = 4.1
+** print the following using format()**
+
+The total population of Alberta is 4.1 million.
+Steps:
+Create place holders inside the string in the print statement.
+pass in the initialized variables to the format to fill the place holders
+
+province = "Alberta"
+population = 4.1
+
+6. Can you grab "Canada" from the nested list? Use indexing.
+a = ['Alberta',2,[3,4],[5,['Canada',7,['hello']],10,15],1,7]
+
+
+7. List name of provinces (keys) from the dictionary below.
+d = {'BC':'Victoria','AB':'Edmonton', 'ON':'Toronto', 'QC':'Quebec City'}
+
+8. From the nested dictionary, grab the word "Montreal". Little tricky! *
+d = {'k1':'AB','k2':[1,{'BC':['SK','ON','Vancouver',{'Calgary':[1,2,3,'Montreal']}]}]}
+
+*9. What is the main difference between a tuple and a list? *
+
+10. An element can appear multiple times in a set ? True / False
+
+11. You got email addresses, write a function to split the website domain *
+user_name@some_domain.ca    
+passing email and the function should return some_domain.com
+
+12. Can you write a function that tells you if there is a word 'Calgary' in the provided string?
+How to deal if the word "city" is capitalized? *
+
+Create a function
+Pass the string 's' to the function
+in order to account for the capitalization, we will use .lower and split at white space
+
+13. Write a function to return square of numbers from 1 to 5, use range() method *
+
+14. Write lambda expression for the function above, use map() and range()
+
+15. filter the words from a list that start with 'c'. Use lambda expression and filter().
+
+veg_list = ['tomato','cabbage','meat','chicken','goat']
+*Out put should be *
+
+['cabbage','chicken']
+
+veg_list = ['tomato','cabbage','meat','chicken','goat']
+
+
+16. You are a loyal customer and the store to offering discounts to their loyal customers:
+
+between 0 & 50 CAD, you get 10 % discounts,
+between 51 & 100 CAD, you get 20 % discounts,
+more than 100 CAD, you get 40 % discounts, 
+Its Monday, and you are spending more than 50 CAD, you get a cherry on top! 10 CAD OFF
+write a function to calculate how much the customer will pay for any spending.
+Tricky? 
+You need to develop the logic! 
+Take a pen and a notebook and do the calculations if needed!
+test the function for [51,50,100,101] using for loop with you function
+
+Good Luck**
+
